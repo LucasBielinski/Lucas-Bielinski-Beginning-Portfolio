@@ -1,0 +1,76 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(171, 171, 245);
+  color: black;
+  width: 100%;
+  justify-content: start;
+  padding-bottom: 50px;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.top {
+  padding: 20px;
+  background-color: rgb(213, 213, 250);
+  width: 100%;
+  margin-bottom: 40px;
+}
+.top ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.top ul li {
+  list-style: none;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h2 {
+  font-size: 25px;
+  text-align: center;
+  font-family: serif;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-bottom: 5px solid black;
+}
+#aboutme p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  width: 50%;
+  height: 50%;
+  margin-left: 20px;
+  color: black;
+}
+#aboutme img {
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+  width: 200px;
+  height: 200px;
+}
+#aboutme {
+  background-color: rgb(184, 184, 243);
+  padding-bottom: 30 px;
+  width: 100%;
+}
+.mainimg h3 {
+  text-align: center;
+  font-family: serif;
+}
+#mywork {
+  background-color: rgb(193, 193, 220);
+  width: 100%;
+}
