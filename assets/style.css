@@ -1,0 +1,118 @@
+header {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(97, 97, 248);
+  color: black;
+  width: 100%;
+  justify-content: start;
+  padding-bottom: 50px;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 15px;
+  background-color: white;
+}
+.top {
+  padding: 20px;
+  background-color: rgb(82, 82, 90);
+  width: 100%;
+  margin-bottom: 40px;
+}
+.top ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.top ul li {
+  list-style: none;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  box-shadow: 5px 5px 5px 5px rgb(81, 81, 210);
+}
+#aboutme {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  background-color: beige;
+}
+.about {
+  font-family: serif;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 5px solid black;
+}
+#aboutme img {
+  float: right;
+  clear: left;
+  height: 200px;
+  width: 200px;
+}
+.desc {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  margin-left: 12px;
+  margin-top: 5px;
+  flex-wrap: wrap;
+}
+#contactme {
+  display: flex;
+  margin-top: 50px;
+  background-color: beige;
+  padding-top: 30px;
+}
+.contact {
+  font-family: serif;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 5px solid black;
+}
+.info ul {
+  display: flex;
+}
+.info ul li {
+  margin-left: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  justify-content: center;
+  font-weight: bolder;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(195, 209, 222);
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  #aboutme {
+    flex-direction: column;
+  }
+  .about {
+    border-bottom: 5px solid black;
+    border-right: none;
+  }
+  .top ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
