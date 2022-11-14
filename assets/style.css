@@ -68,6 +68,69 @@ a:hover {
   margin-top: 5px;
   flex-wrap: wrap;
 }
+#mywork {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(131, 154, 198);
+}
+#mywork > div {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+.mainimg {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.mainimg a {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.mainimg img {
+  width: 100%;
+  height: 100%;
+}
+.mainimg figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 20%;
+}
+
+#mywork nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#mywork h2 {
+  font-family: serif;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 5px solid black;
+}
+
+.work a {
+  background-color: aliceblue;
+  width: 20%;
+  position: relative;
+}
+.work a > img {
+  width: 100%;
+  height: 100%;
+}
+.work figcaption {
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+}
 #contactme {
   display: flex;
   align-items: center;
@@ -84,15 +147,7 @@ a:hover {
   padding-right: 20px;
   border-right: 5px solid black;
 }
-#mywork {
-  display: flex;
-  flex-wrap: wrap;
-}
-.mainimg img{
-  width: 80%;
-}
 
-}
 .info ul {
   display: flex;
 }
@@ -112,14 +167,22 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+  .work,
   #aboutme,
   #contactme {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .work a {
+    width: 80%;
   }
   .about,
-  .contact {
+  .contact,
+  .work h2 {
     border-bottom: 5px solid black;
     border-right: none;
+    flex-direction: column;
   }
   .top ul li {
     flex-direction: column;
