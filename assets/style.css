@@ -46,7 +46,7 @@ a:hover {
   height: fit-content;
   margin-bottom: 50px;
   padding-bottom: 20px;
-  background-color: beige;
+  background-color: rgb(131, 154, 198);
 }
 .about {
   font-family: serif;
@@ -58,8 +58,6 @@ a:hover {
   border-right: 5px solid black;
 }
 #aboutme img {
-  float: right;
-  clear: left;
   height: 200px;
   width: 200px;
 }
@@ -72,8 +70,9 @@ a:hover {
 }
 #contactme {
   display: flex;
+  align-items: center;
   margin-top: 50px;
-  background-color: beige;
+  background-color: rgb(131, 154, 198);
   padding-top: 30px;
 }
 .contact {
@@ -89,10 +88,10 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
 }
-.mainimg img {
-  height: 330px;
+.mainimg img{
   width: 80%;
-  :center ;
+}
+
 }
 .info ul {
   display: flex;
