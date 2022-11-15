@@ -120,7 +120,8 @@ a:hover {
   position: absolute;
   left: 0;
   bottom: 20%;
-  background-color: var(--aqua);
+  background-color: var(--black);
+  color: white;
   font-family: serif;
 }
 
