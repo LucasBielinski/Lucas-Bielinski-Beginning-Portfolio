@@ -10,7 +10,8 @@ N/A
 
 ## Usage
 
-Clicking on the links towards the top of the page will bring you to a diffrent section of the page. Clicking on "About Me" will bring you to that section etc. Clicking on an image will take you to an external webpage. Clicking on the "My Github" link at the bottom, will take you to my Git Hub.
+Clicking on the links towards the top of the page will bring you to a different section of the page. Clicking on "About Me" will bring you to that section etc. Clicking on an image will take you to an external webpage. Clicking on the "My Github'' link at the bottom, will take you to my GitHub.
+
 
 ![image of webpage](./assets/images/screenshot.png)
 https://lucasbielinski.github.io/bielinski-portfolio/ 
