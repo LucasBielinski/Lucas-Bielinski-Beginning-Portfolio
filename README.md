@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a place to display my deployed work, for future employers to look at. I built this project to make it possible to access my work in one place. This makes it quick and easy for a future employer to review my work. I learned how to use more advanced CSS methods in this project. I also learned that CSS is an art, and something I must keep experimenting with.
+This project is a place to display my deployed work for future employers to look at. I built this project to make it possible to access my work in one place. This makes it quick and easy for a future employer to review my work. I learned how to use more advanced CSS methods in this project. I also learned that CSS is an art, and something I must keep experimenting with.
 
 ## Installation
 
