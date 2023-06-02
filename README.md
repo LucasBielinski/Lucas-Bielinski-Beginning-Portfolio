@@ -14,7 +14,7 @@ Clicking on the links towards the top of the page will bring you to a different 
 
 
 ![image of webpage](./assets/images/screenshot.png)
-https://lucasbielinski.github.io/bielinski-portfolio/ 
+https://lucasbielinski.github.io/Lucas-Bielinski-Beginning-Portfolio/
 
 ## Credits
 
