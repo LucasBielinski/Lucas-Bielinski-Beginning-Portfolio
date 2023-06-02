@@ -1,4 +1,4 @@
-# Bielinski-Portfolio
+# Lucas-Bielinski-Beginning-Portfolio
 
 ## Description
 
